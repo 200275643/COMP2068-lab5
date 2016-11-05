@@ -7,7 +7,7 @@ var passport = require('passport');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Lab 5',
-                      message: 'Practice with passport',
+                      message: 'Passport Authentication Lab',
                          user: req.user
   });
 });
